@@ -5,10 +5,23 @@
     <link>https://www.anthonylepki.com/</link>
     <description>Recent content on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Feb 2018 22:36:24 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 13:00:55 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java Notes</title>
+      <link>https://www.anthonylepki.com/posts/java-notes/</link>
+      <pubDate>Mon, 12 Feb 2018 13:00:55 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/java-notes/</guid>
+      <description>Java Java is an Object-Oriented language, not coffee.
+Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
+These are my simple notes for reference online.
+Collection of objects that communicate via invoking each other&amp;rsquo;s methods
+ Object − Objects have states and behaviors. Example: A cat has states - color, name, breed as well as behavior such as wagging their tail, meowing, eating.</description>
+    </item>
     
     <item>
       <title>Drupal 8 Composer Drush</title>
@@ -19,9 +32,10 @@
       <description>My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
 By no means is this a definitive guide, simply a working document to outline steps in process.
 You&amp;rsquo;ll get the majority of the goods here:
- Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+ Installing Drupal 8  Installing Drupal w/ Composer Listed here:
 https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
-Drupal Composer config generator (drupal-init) We&amp;rsquo;re going to try Option C on above link</description>
+Drupal Composer config generator (drupal-init) We&amp;rsquo;re going to try Option C on above link
+hussainweb/drupal-composer-init</description>
     </item>
     
     <item>

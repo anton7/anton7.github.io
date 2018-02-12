@@ -7,17 +7,19 @@
 <meta name='description' content='My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
 By no means is this a definitive guide, simply a working document to outline steps in process.
 You&rsquo;ll get the majority of the goods here:
- Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+ Installing Drupal 8  Installing Drupal w/ Composer Listed here:
 https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
-Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C on above link'>
+Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C on above link
+hussainweb/drupal-composer-init'>
 
 <meta property='og:title' content='Drupal 8 Composer Drush • Anthony Lepki'>
 <meta property='og:description' content='My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
 By no means is this a definitive guide, simply a working document to outline steps in process.
 You&rsquo;ll get the majority of the goods here:
- Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+ Installing Drupal 8  Installing Drupal w/ Composer Listed here:
 https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
-Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C on above link'>
+Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C on above link
+hussainweb/drupal-composer-init'>
 <meta property='og:url' content='https://www.anthonylepki.com/posts/drupal-8-composer-drush/'>
 <meta property='og:site_name' content='Anthony Lepki'>
 <meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='drupal'><meta property='article:tag' content='composer'><meta property='article:tag' content='drush'><meta property='article:published_time' content='2018-02-11T22:36:24-08:00'/><meta property='article:modified_time' content='2018-02-11T22:36:24-08:00'/><meta name='twitter:card' content='summary'>
@@ -74,6 +76,8 @@ Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C
       <a href='/tags/forestry' style='font-size:1em'>Forestry</a>
     </li><li>
       <a href='/tags/hugo' style='font-size:2em'>Hugo</a>
+    </li><li>
+      <a href='/tags/java' style='font-size:1em'>Java</a>
     </li><li>
       <a href='/tags/terminal' style='font-size:1em'>Terminal</a>
     </li></ul>
@@ -168,7 +172,7 @@ Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C
 <li><a href="https://www.drupal.org/docs/8/install" target="_blank">Installing Drupal 8</a></li>
 </ul>
 
-<h1 id="options-for-installing-drupal-w-composer">Options for installing Drupal w/ Composer</h1>
+<h1 id="installing-drupal-w-composer">Installing Drupal w/ Composer</h1>
 
 <p>Listed here:</p>
 
@@ -191,7 +195,7 @@ Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C
 
 # navigate to new folder, create composer.json file
 composer drupal-init</code></pre></div>
-<h4 id="working-with-an-existing-drupal-8-project">Working with an existing Drupal 8 Project?</h4>
+<h4 id="working-with-an-existing-d8-project">Working with an existing D8 Project?</h4>
 
 <p>Check this: <a href="https://www.drupal.org/project/composer_generate" target="_blank">https://www.drupal.org/project/composer_generate</a></p>
 
@@ -226,7 +230,7 @@ composer drupal-init</code></pre></div>
 
 <p>Since we&rsquo;re using &lsquo;hussainweb/drupal-composer-init&rsquo;, we can proceed to install D8</p>
 
-<h3 id="create-database">Create database</h3>
+<h2 id="create-database">Create database</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">mysql -u root -p
 
 create database d8-something;
@@ -236,11 +240,11 @@ exit;</code></pre></div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">drush site-install standard --db-url=mysql://[db_user]:[db_pass]@[ip-address]/[db_name]</code></pre></div>
 <p>Pay attention here - <strong>admin password</strong> is given here!</p>
 
-<h2 id="it-s-alive">It&rsquo;s Alive</h2>
+<h3 id="it-s-alive">It&rsquo;s Alive</h3>
 
 <p>Navigate to your local website and you will see Drupal 8 installed.</p>
 
-<h3 id="using-drush-to-enable-modules">Using Drush to enable modules</h3>
+<h2 id="enable-modules">Enable modules</h2>
 
 <p>Header over to <strong>Extend</strong> and check to see what modules are enabled.</p>
 
@@ -254,7 +258,40 @@ drush en pathauto</code></pre></div>
 
 <p>Nifty!</p>
 
-<h3 id="recap">Recap</h3>
+<h2 id="themes">Themes</h2>
+
+<p>View your themes</p>
+
+<pre><code>drush pm:list --type=theme
+</code></pre>
+
+<h2 id="clear-cache">Clear Cache</h2>
+
+<pre><code>drush cr
+</code></pre>
+
+<h2 id="download-enable-module">Download &amp; enable module</h2>
+
+<p><a href="https://www.drupal.org/docs/user_guide/en/install-composer.html" target="_blank">https://www.drupal.org/docs/user_guide/en/install-composer.html</a></p>
+
+<h3 id="theme">Theme</h3>
+
+<p>Download with composer</p>
+
+<pre><code>composer require drupal/bootstrap
+</code></pre>
+
+<p>Enable with Drush fails - have to enable via D8 admin</p>
+
+<pre><code>drush en bootstrap
+
+# get error
+
+[error]  Unable to install modules Bootstrap due to missing modules Bootstrap.
+
+</code></pre>
+
+<h1 id="recap">Recap</h1>
 
 <p>Here we have:</p>
 
@@ -300,6 +337,16 @@ drush en pathauto</code></pre></div>
 </svg>
  Previous</span>
         <span class='screen-reader-text'>Previous post: </span>Terminal Commands</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/posts/java-notes/'>
+        <span class='screen-reader-text'>Next post: </span>Java Notes<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
     </div></div>
 </nav>
 

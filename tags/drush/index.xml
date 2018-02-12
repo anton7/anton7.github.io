@@ -19,9 +19,10 @@
       <description>My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
 By no means is this a definitive guide, simply a working document to outline steps in process.
 You&amp;rsquo;ll get the majority of the goods here:
- Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+ Installing Drupal 8  Installing Drupal w/ Composer Listed here:
 https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
-Drupal Composer config generator (drupal-init) We&amp;rsquo;re going to try Option C on above link</description>
+Drupal Composer config generator (drupal-init) We&amp;rsquo;re going to try Option C on above link
+hussainweb/drupal-composer-init</description>
     </item>
     
   </channel>

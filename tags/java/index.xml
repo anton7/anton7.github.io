@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Anthony Lepki</title>
+    <link>https://www.anthonylepki.com/tags/java/</link>
+    <description>Recent content in Java on Anthony Lepki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Feb 2018 13:00:55 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.anthonylepki.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java Notes</title>
+      <link>https://www.anthonylepki.com/posts/java-notes/</link>
+      <pubDate>Mon, 12 Feb 2018 13:00:55 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/java-notes/</guid>
+      <description>Java Java is an Object-Oriented language, not coffee.
+Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
+These are my simple notes for reference online.
+Collection of objects that communicate via invoking each other&amp;rsquo;s methods
+ Object − Objects have states and behaviors. Example: A cat has states - color, name, breed as well as behavior such as wagging their tail, meowing, eating.</description>
+    </item>
+    
+  </channel>
+</rss>
