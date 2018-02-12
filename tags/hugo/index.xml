@@ -5,10 +5,19 @@
     <link>https://www.anthonylepki.com/tags/hugo/</link>
     <description>Recent content in Hugo on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Feb 2018 22:56:16 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2018 11:43:40 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gohugo Site Generator</title>
+      <link>https://www.anthonylepki.com/posts/gohugo-site-generator/</link>
+      <pubDate>Sun, 11 Feb 2018 11:43:40 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/gohugo-site-generator/</guid>
+      <description>Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Hugo Basic Usage</description>
+    </item>
     
     <item>
       <title>Going Static on Git</title>
