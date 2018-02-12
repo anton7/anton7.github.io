@@ -5,10 +5,37 @@
     <link>https://www.anthonylepki.com/tags/</link>
     <description>Recent content in Tags on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Feb 2018 22:56:16 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2018 22:36:24 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Composer</title>
+      <link>https://www.anthonylepki.com/tags/composer/</link>
+      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/tags/composer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drupal</title>
+      <link>https://www.anthonylepki.com/tags/drupal/</link>
+      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drush</title>
+      <link>https://www.anthonylepki.com/tags/drush/</link>
+      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/tags/drush/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Forestry</title>

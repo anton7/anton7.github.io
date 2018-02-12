@@ -5,10 +5,33 @@
     <link>https://www.anthonylepki.com/</link>
     <description>Recent content on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Feb 2018 12:00:53 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2018 22:36:24 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Drupal 8 Composer Drush</title>
+      <link>https://www.anthonylepki.com/posts/drupal-8-composer-drush/</link>
+      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/drupal-8-composer-drush/</guid>
+      <description>My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
+By no means is this a definitive guide, simply a working document to outline steps in process.
+You&amp;rsquo;ll get the majority of the goods here:
+ Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
+Drupal Composer config generator (drupal-init) We&amp;rsquo;re going to try Option C on above link</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.anthonylepki.com/about/</link>
+      <pubDate>Sun, 11 Feb 2018 19:03:34 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/about/</guid>
+      <description>Website Development</description>
+    </item>
     
     <item>
       <title>Terminal Commands</title>
@@ -17,7 +40,7 @@
       
       <guid>https://www.anthonylepki.com/posts/terminal-commands/</guid>
       <description> By far, this is not a list of terminal commands, simply things I on occassion use to get stuff done.
-Copy folder to another cp -a /source/. /dest/  </description>
+Copy folder to another cp -vr /source/. /dest/  </description>
     </item>
     
     <item>
@@ -26,7 +49,8 @@ Copy folder to another cp -a /source/. /dest/  </description>
       <pubDate>Sun, 11 Feb 2018 11:43:40 -0800</pubDate>
       
       <guid>https://www.anthonylepki.com/posts/gohugo-site-generator/</guid>
-      <description>Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Hugo Basic Usage</description>
+      <description>Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Themes https://minimo.netlify.com/docs/
+Images Hugo Basic Usage</description>
     </item>
     
     <item>

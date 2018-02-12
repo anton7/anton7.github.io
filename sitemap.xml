@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.anthonylepki.com/posts/drupal-8-composer-drush/</loc>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.anthonylepki.com/about/</loc>
+    <lastmod>2018-02-11T19:03:34-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.anthonylepki.com/posts/terminal-commands/</loc>
     <lastmod>2018-02-11T12:00:53-08:00</lastmod>
   </url>
@@ -19,7 +29,7 @@
   
   <url>
     <loc>https://www.anthonylepki.com/</loc>
-    <lastmod>2018-02-11T12:00:53-08:00</lastmod>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,6 +40,24 @@
   
   <url>
     <loc>https://www.anthonylepki.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.anthonylepki.com/tags/composer/</loc>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.anthonylepki.com/tags/drupal/</loc>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.anthonylepki.com/tags/drush/</loc>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,14 +74,20 @@
   </url>
   
   <url>
+    <loc>https://www.anthonylepki.com/page/</loc>
+    <lastmod>2018-02-11T19:03:34-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.anthonylepki.com/posts/</loc>
-    <lastmod>2018-02-11T12:00:53-08:00</lastmod>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.anthonylepki.com/tags/</loc>
-    <lastmod>2018-02-10T22:56:16-08:00</lastmod>
+    <lastmod>2018-02-11T22:36:24-08:00</lastmod>
     <priority>0</priority>
   </url>
   

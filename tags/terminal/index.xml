@@ -17,7 +17,7 @@
       
       <guid>https://www.anthonylepki.com/posts/terminal-commands/</guid>
       <description> By far, this is not a list of terminal commands, simply things I on occassion use to get stuff done.
-Copy folder to another cp -a /source/. /dest/  </description>
+Copy folder to another cp -vr /source/. /dest/  </description>
     </item>
     
   </channel>

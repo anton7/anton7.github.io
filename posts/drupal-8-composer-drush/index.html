@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
+By no means is this a definitive guide, simply a working document to outline steps in process.
+You&rsquo;ll get the majority of the goods here:
+ Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
+Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C on above link'>
+
+<meta property='og:title' content='Drupal 8 Composer Drush • Anthony Lepki'>
+<meta property='og:description' content='My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
+By no means is this a definitive guide, simply a working document to outline steps in process.
+You&rsquo;ll get the majority of the goods here:
+ Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
+Drupal Composer config generator (drupal-init) We&rsquo;re going to try Option C on above link'>
+<meta property='og:url' content='https://www.anthonylepki.com/posts/drupal-8-composer-drush/'>
+<meta property='og:site_name' content='Anthony Lepki'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='drupal'><meta property='article:tag' content='composer'><meta property='article:tag' content='drush'><meta property='article:published_time' content='2018-02-11T22:36:24-08:00'/><meta property='article:modified_time' content='2018-02-11T22:36:24-08:00'/><meta name='twitter:card' content='summary'>
+
+<meta name="generator" content="Hugo 0.32.3" />
+
+  <title>Drupal 8 Composer Drush • Anthony Lepki</title>
+  <link rel='canonical' href='https://www.anthonylepki.com/posts/drupal-8-composer-drush/'>
+  
+  
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='/assets/css/main.09d23cb0.css'><link rel='stylesheet' href='/css/custom.css'>
+</head>
+
+
+<body class='page type-posts has-sidebar sidebar-sticky'>
+
+  <div class='site'>
+
+    <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+<div id='sidebar' class='sidebar'>
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='/'>
+        <img src='/images/logo.png'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+    Anthony Lepki
+    </h2>
+    <div class='desc'>
+    Digital Explorer
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Tags</h4>
+  </header>
+
+  <div class='taxonomy-cloud'>
+    <ul class='list'><li>
+      <a href='/tags/composer' style='font-size:1em'>Composer</a>
+    </li><li>
+      <a href='/tags/drupal' style='font-size:1em'>Drupal</a>
+    </li><li>
+      <a href='/tags/drush' style='font-size:1em'>Drush</a>
+    </li><li>
+      <a href='/tags/forestry' style='font-size:1em'>Forestry</a>
+    </li><li>
+      <a href='/tags/hugo' style='font-size:2em'>Hugo</a>
+    </li><li>
+      <a href='/tags/terminal' style='font-size:1em'>Terminal</a>
+    </li></ul>
+
+  </div>
+</section>
+</div>
+</div>
+
+    <div class='main'>
+
+      <nav id='main-menu' class='main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='hamburger hamburger--arrow sidebar-toggler' type='button' aria-controls='sidebar' aria-expanded='false'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+    <ul><li class='item'>
+        <a href='about'>About</a>
+      </li></ul>
+  </div>
+</nav>
+
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Anthony Lepki</p><p class='desc site-desc'>Digital Explorer</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Drupal 8 Composer Drush</h1>
+      
+
+    </div>
+    
+<div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2018-02-11T22:36:24-08:00'>2018, Feb 11</time>
+</span>
+
+  
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+2 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  
+
+<p>My notes for installing Drupal 8 on localhost (<a href="https://www.drupal.org/docs/develop/local-server-setup/mac-os-development-environment/howto-create-a-local-environment" target="_blank">MAMP</a>/Docker/VM/other) with <a href="https://getcomposer.org/" target="_blank">Composer</a> while using the power of Drush.</p>
+
+<p>By no means is this a definitive guide, simply a working document to outline steps in process.</p>
+
+<p>You&rsquo;ll get the majority of the goods here:</p>
+
+<ul>
+<li><a href="https://www.drupal.org/docs/8/install" target="_blank">Installing Drupal 8</a></li>
+</ul>
+
+<h1 id="options-for-installing-drupal-w-composer">Options for installing Drupal w/ Composer</h1>
+
+<p>Listed here:</p>
+
+<p><a href="https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new" target="_blank">https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new</a></p>
+
+<h3 id="drupal-composer-config-generator-drupal-init">Drupal Composer config generator (drupal-init)</h3>
+
+<p>We&rsquo;re going to try Option C on above link</p>
+
+<p>hussainweb/drupal-composer-init</p>
+
+<p>The drupal-init command creates a composer.json file usable for Drupal projects in the current directory.</p>
+
+<p>Here is what it looks like:</p>
+
+<p><img src="/composer-drupal8-drush.png" alt="Composer.json file for Drupal 8" /></p>
+
+<p>Commands go something like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">composer global require hussainweb/drupal-composer-init
+
+# navigate to new folder, create composer.json file
+composer drupal-init</code></pre></div>
+<h4 id="working-with-an-existing-drupal-8-project">Working with an existing Drupal 8 Project?</h4>
+
+<p>Check this: <a href="https://www.drupal.org/project/composer_generate" target="_blank">https://www.drupal.org/project/composer_generate</a></p>
+
+<h1 id="installation-let-s-go">Installation - Let&rsquo;s go!</h1>
+
+<p>From what I see, 2 options for installation</p>
+
+<ol>
+<li>Via browser</li>
+<li>Command line</li>
+</ol>
+
+<p>We&rsquo;re going with for the <strong>Command line installation</strong> with Drush</p>
+
+<h1 id="drush">Drush</h1>
+
+<blockquote>
+<p>It is recommended that Drupal 8 sites be built using Composer, with Drush listed as a dependency.
+<a href="http://docs.drush.org/en/master/install/" target="_blank">http://docs.drush.org/en/master/install/</a></p>
+</blockquote>
+
+<p>With Drush, you can:</p>
+
+<ul>
+<li>Download and install Drupal</li>
+<li>Clear cache</li>
+<li>Update Drupal &amp; contrib modules</li>
+<li>Add users and permissions</li>
+<li>Backup &amp; restore</li>
+<li>Run Drupal w/ web server</li>
+</ul>
+
+<p>Since we&rsquo;re using &lsquo;hussainweb/drupal-composer-init&rsquo;, we can proceed to install D8</p>
+
+<h3 id="create-database">Create database</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">mysql -u root -p
+
+create database d8-something;
+
+exit;</code></pre></div>
+<p>Let&rsquo;s <a href="https://drushcommands.com/drush-8x/core/site-install/" target="_blank">install it</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">drush site-install standard --db-url=mysql://[db_user]:[db_pass]@[ip-address]/[db_name]</code></pre></div>
+<p>Pay attention here - <strong>admin password</strong> is given here!</p>
+
+<h2 id="it-s-alive">It&rsquo;s Alive</h2>
+
+<p>Navigate to your local website and you will see Drupal 8 installed.</p>
+
+<h3 id="using-drush-to-enable-modules">Using Drush to enable modules</h3>
+
+<p>Header over to <strong>Extend</strong> and check to see what modules are enabled.</p>
+
+<p>Since we stated that we also wanted a few modules within our <strong>composer.json</strong>, you will see that they&rsquo;re not enabled.</p>
+
+<p><img src="/d8-modules-example.png" alt="Composer.json file for Drupal 8" /></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">drush en [module-name]
+
+drush en pathauto</code></pre></div>
+<p>Should any one of them have dependancies, they you get prompted as well.</p>
+
+<p>Nifty!</p>
+
+<h3 id="recap">Recap</h3>
+
+<p>Here we have:</p>
+
+<ul>
+<li>Generated composer.json file using <a href="https://github.com/hussainweb/drupal-composer-init" target="_blank">hussainweb/drupal-composer-init</a></li>
+<li>Set up extensions</li>
+<li>Downloaded Drupal 8 in to working folder with composer</li>
+<li>Connected to database and installed with Drush</li>
+<li>Enabled module with Drush</li>
+</ul>
+
+<p>More to follow!</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'>
+  <div class='tags'>
+  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+</span>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/drupal'>Drupal</a>, <a class='tag' href='/tags/composer'>Composer</a>, <a class='tag' href='/tags/drush'>Drush</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/posts/terminal-commands/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Terminal Commands</a>
+    </div></div>
+</nav>
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'>
+          <div class='social-menu'>
+  <nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://twitter.com/anthonylepki' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</div>
+          <div class='copyright'>
+  <p> &copy; 2018 AnthonyLepki </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><div class='sidebar-overlay'></div><script src='/assets/js/main.89545a27.js'></script><script src='/js/custom.js'></script></body>
+
+</html>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composer on Anthony Lepki</title>
+    <link>https://www.anthonylepki.com/tags/composer/</link>
+    <description>Recent content in Composer on Anthony Lepki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 11 Feb 2018 22:36:24 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.anthonylepki.com/tags/composer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal 8 Composer Drush</title>
+      <link>https://www.anthonylepki.com/posts/drupal-8-composer-drush/</link>
+      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/drupal-8-composer-drush/</guid>
+      <description>My notes for installing Drupal 8 on localhost (MAMP/Docker/VM/other) with Composer while using the power of Drush.
+By no means is this a definitive guide, simply a working document to outline steps in process.
+You&amp;rsquo;ll get the majority of the goods here:
+ Installing Drupal 8  Options for installing Drupal w/ Composer Listed here:
+https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#creating-new
+Drupal Composer config generator (drupal-init) We&amp;rsquo;re going to try Option C on above link</description>
+    </item>
+    
+  </channel>
+</rss>
