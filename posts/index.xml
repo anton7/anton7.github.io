@@ -54,7 +54,10 @@ Copy folder to another cp -vr /source/. /dest/  </description>
       <pubDate>Sun, 11 Feb 2018 11:43:40 -0800</pubDate>
       
       <guid>https://www.anthonylepki.com/posts/gohugo-site-generator/</guid>
-      <description>Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Themes https://minimo.netlify.com/docs/
+      <description>What is Hugo? The claim is that Hugo is:
+ The world’s fastest framework for building websites
+ SImply put, it&amp;rsquo;s an open-source static site generator.
+Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Themes https://minimo.netlify.com/docs/
 Images Hugo Basic Usage</description>
     </item>
     

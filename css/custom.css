@@ -1,0 +1,22 @@
+section.toc
+{
+    text-align: left;
+    font-size: 14px;
+
+}
+.sidebar .toc.sep-after::after {
+    border-bottom: .2em solid #ffcd00;
+    
+}
+
+.TableofContents
+{
+    text-align: left;
+    
+}
+section.toc ul {
+	list-style: disc;
+	padding-left: 0px;
+	margin-left: 10px;
+	list-style: none;
+}
