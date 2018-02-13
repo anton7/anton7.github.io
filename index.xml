@@ -5,10 +5,21 @@
     <link>https://www.anthonylepki.com/</link>
     <description>Recent content on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Feb 2018 13:00:55 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 13 Feb 2018 13:55:34 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello</title>
+      <link>https://www.anthonylepki.com/posts/hello/</link>
+      <pubDate>Tue, 13 Feb 2018 13:55:34 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/hello/</guid>
+      <description>WHat is up?
+What time is it? asdasdasd
+asdasdasd</description>
+    </item>
     
     <item>
       <title>Java Notes</title>
@@ -16,11 +27,10 @@
       <pubDate>Mon, 12 Feb 2018 13:00:55 -0800</pubDate>
       
       <guid>https://www.anthonylepki.com/posts/java-notes/</guid>
-      <description>Java Java is an Object-Oriented language, not coffee.
+      <description>Java Java is an Object-Oriented language, can be coffee too, but in this case, we&amp;rsquo;re making notes on the programming language.
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
 These are my simple notes for reference online.
-Collection of objects that communicate via invoking each other&amp;rsquo;s methods
- Object − Objects have states and behaviors. Example: A cat has states - color, name, breed as well as behavior such as wagging their tail, meowing, eating.</description>
+Collection of objects that communicate via invoking each other&amp;rsquo;s methods</description>
     </item>
     
     <item>
@@ -67,7 +77,9 @@ Copy folder to another cp -vr /source/. /dest/  </description>
  The world’s fastest framework for building websites
  SImply put, it&amp;rsquo;s an open-source static site generator.
 Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Themes https://minimo.netlify.com/docs/
-Images Hugo Basic Usage</description>
+Images Resources
+http://danbahrami.io/articles/building-a-production-website-with-hugo-and-gulp-js/
+Hugo Basic Usage</description>
     </item>
     
     <item>

@@ -16,11 +16,10 @@
       <pubDate>Mon, 12 Feb 2018 13:00:55 -0800</pubDate>
       
       <guid>https://www.anthonylepki.com/posts/java-notes/</guid>
-      <description>Java Java is an Object-Oriented language, not coffee.
+      <description>Java Java is an Object-Oriented language, can be coffee too, but in this case, we&amp;rsquo;re making notes on the programming language.
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
 These are my simple notes for reference online.
-Collection of objects that communicate via invoking each other&amp;rsquo;s methods
- Object − Objects have states and behaviors. Example: A cat has states - color, name, breed as well as behavior such as wagging their tail, meowing, eating.</description>
+Collection of objects that communicate via invoking each other&amp;rsquo;s methods</description>
     </item>
     
   </channel>
