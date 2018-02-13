@@ -20,3 +20,11 @@ section.toc ul {
 	margin-left: 10px;
 	list-style: none;
 }
+
+
+.entry-toc summary.title span
+{
+    font-size: 20px;
+    color: chocolate;
+    color: cornflowerblue;
+}
