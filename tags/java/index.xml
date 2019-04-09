@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Anthony Lepki</title>
+    <title>java on Anthony Lepki</title>
     <link>https://www.anthonylepki.com/tags/java/</link>
-    <description>Recent content in Java on Anthony Lepki</description>
+    <description>Recent content in java on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
+    <copyright>You said it!</copyright>
     <lastBuildDate>Mon, 12 Feb 2018 13:00:55 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +13,23 @@
     
     <item>
       <title>Java Notes</title>
-      <link>https://www.anthonylepki.com/posts/java-notes/</link>
+      <link>https://www.anthonylepki.com/posts/java/</link>
       <pubDate>Mon, 12 Feb 2018 13:00:55 -0800</pubDate>
       
-      <guid>https://www.anthonylepki.com/posts/java-notes/</guid>
+      <guid>https://www.anthonylepki.com/posts/java/</guid>
       <description>Java Java is an Object-Oriented language, can be coffee too, but in this case, we&amp;rsquo;re making notes on the programming language.
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
 These are my simple notes for reference online.
 Collection of objects that communicate via invoking each other&amp;rsquo;s methods</description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>https://www.anthonylepki.com/posts/laravel/</link>
+      <pubDate>Mon, 16 Jan 2017 13:51:59 -0800</pubDate>
+      
+      <guid>https://www.anthonylepki.com/posts/laravel/</guid>
+      <description>Laraval Notes Disclaimer: these are my notes for reference online. See Laravel.com for official info.</description>
     </item>
     
   </channel>

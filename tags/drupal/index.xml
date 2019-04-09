@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drupal on Anthony Lepki</title>
+    <title>drupal on Anthony Lepki</title>
     <link>https://www.anthonylepki.com/tags/drupal/</link>
-    <description>Recent content in Drupal on Anthony Lepki</description>
+    <description>Recent content in drupal on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
+    <copyright>You said it!</copyright>
     <lastBuildDate>Sun, 11 Feb 2018 22:36:24 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/tags/drupal/index.xml" rel="self" type="application/rss+xml" />

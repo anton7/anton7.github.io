@@ -1,44 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Anthony Lepki</title>
+    <title>hugo on Anthony Lepki</title>
     <link>https://www.anthonylepki.com/tags/hugo/</link>
-    <description>Recent content in Hugo on Anthony Lepki</description>
+    <description>Recent content in hugo on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
+    <copyright>You said it!</copyright>
     <lastBuildDate>Sun, 11 Feb 2018 11:43:40 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Gohugo Site Generator</title>
-      <link>https://www.anthonylepki.com/posts/gohugo-site-generator/</link>
+      <title>Hugo Site Generator</title>
+      <link>https://www.anthonylepki.com/posts/hugo/</link>
       <pubDate>Sun, 11 Feb 2018 11:43:40 -0800</pubDate>
       
-      <guid>https://www.anthonylepki.com/posts/gohugo-site-generator/</guid>
+      <guid>https://www.anthonylepki.com/posts/hugo/</guid>
       <description>What is Hugo? The claim is that Hugo is:
  The world’s fastest framework for building websites
  SImply put, it&amp;rsquo;s an open-source static site generator.
-Start local Hugo server hugo server  New Post hugo new posts/----.md  Tags tags: [&amp;#34;hugo&amp;#34;] Themes https://minimo.netlify.com/docs/
-Images Resources
-http://danbahrami.io/articles/building-a-production-website-with-hugo-and-gulp-js/
-Hugo Basic Usage</description>
-    </item>
-    
-    <item>
-      <title>Going Static on Git</title>
-      <link>https://www.anthonylepki.com/posts/my-first-post/</link>
-      <pubDate>Sat, 10 Feb 2018 22:56:16 -0800</pubDate>
-      
-      <guid>https://www.anthonylepki.com/posts/my-first-post/</guid>
-      <description>Well, sometimes I&amp;rsquo;m stubborn.
-Web 3.0 - imo - is seeing more sites back to static.
-Why? Because it&amp;rsquo;s fun!
-No WordPress, no db, no cms - just plain old HTML, text editor, Markdown - you get it.
-Simpler, faster, better? Better a in sense of not thrashing the server, setting up dbs, getting knocked on, etc.
-Hugo This page/site built with Hugo.
-Connecting Hugo with Forestry &amp;hellip;
-Tried Forestry - very promosing, but does not (yet) support v.</description>
+What I love about this There is no monkey business with plugins, add-ons, themes, updates, security and more.
+Simply start writing in your favorite text editor, save and live-reload at play.
+A couple of items are at play here:
+ no host, using GitHub pages to serve out this website.</description>
     </item>
     
   </channel>

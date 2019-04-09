@@ -5,22 +5,13 @@
     <link>https://www.anthonylepki.com/tags/</link>
     <description>Recent content in Tags on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Feb 2018 22:36:24 -0800</lastBuildDate>
+    <copyright>You said it!</copyright>
     
 	<atom:link href="https://www.anthonylepki.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Composer</title>
-      <link>https://www.anthonylepki.com/tags/composer/</link>
-      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
-      
-      <guid>https://www.anthonylepki.com/tags/composer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drupal</title>
+      <title>drupal</title>
       <link>https://www.anthonylepki.com/tags/drupal/</link>
       <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
       
@@ -29,25 +20,7 @@
     </item>
     
     <item>
-      <title>Drush</title>
-      <link>https://www.anthonylepki.com/tags/drush/</link>
-      <pubDate>Sun, 11 Feb 2018 22:36:24 -0800</pubDate>
-      
-      <guid>https://www.anthonylepki.com/tags/drush/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Forestry</title>
-      <link>https://www.anthonylepki.com/tags/forestry/</link>
-      <pubDate>Sat, 10 Feb 2018 22:56:16 -0800</pubDate>
-      
-      <guid>https://www.anthonylepki.com/tags/forestry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>https://www.anthonylepki.com/tags/hugo/</link>
       <pubDate>Sun, 11 Feb 2018 11:43:40 -0800</pubDate>
       
@@ -56,7 +29,7 @@
     </item>
     
     <item>
-      <title>Java</title>
+      <title>java</title>
       <link>https://www.anthonylepki.com/tags/java/</link>
       <pubDate>Mon, 12 Feb 2018 13:00:55 -0800</pubDate>
       
@@ -65,20 +38,11 @@
     </item>
     
     <item>
-      <title>Terminal</title>
+      <title>terminal</title>
       <link>https://www.anthonylepki.com/tags/terminal/</link>
-      <pubDate>Sun, 11 Feb 2018 12:00:53 -0800</pubDate>
+      <pubDate>Thu, 11 Feb 2016 12:00:53 -0800</pubDate>
       
       <guid>https://www.anthonylepki.com/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://www.anthonylepki.com/tags/test/</link>
-      <pubDate>Tue, 13 Feb 2018 13:55:34 -0800</pubDate>
-      
-      <guid>https://www.anthonylepki.com/tags/test/</guid>
       <description></description>
     </item>
     

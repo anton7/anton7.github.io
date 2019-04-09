@@ -2,21 +2,31 @@
 <html lang='en'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content=' By far, this is not a list of terminal commands, simply things I on occassion use to get stuff done.
-Copy folder to another cp -vr /source/. /dest/  '>
+<meta name='description' content='What is Hugo? The claim is that Hugo is:
+ The world’s fastest framework for building websites
+ SImply put, it&rsquo;s an open-source static site generator.
+What I love about this There is no monkey business with plugins, add-ons, themes, updates, security and more.
+Simply start writing in your favorite text editor, save and live-reload at play.
+A couple of items are at play here:
+ no host, using GitHub pages to serve out this website.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Terminal Commands • Anthony Lepki'>
-<meta property='og:description' content=' By far, this is not a list of terminal commands, simply things I on occassion use to get stuff done.
-Copy folder to another cp -vr /source/. /dest/  '>
-<meta property='og:url' content='https://www.anthonylepki.com/posts/terminal-commands/'>
+<meta property='og:title' content='Hugo Site Generator • Anthony Lepki'>
+<meta property='og:description' content='What is Hugo? The claim is that Hugo is:
+ The world’s fastest framework for building websites
+ SImply put, it&rsquo;s an open-source static site generator.
+What I love about this There is no monkey business with plugins, add-ons, themes, updates, security and more.
+Simply start writing in your favorite text editor, save and live-reload at play.
+A couple of items are at play here:
+ no host, using GitHub pages to serve out this website.'>
+<meta property='og:url' content='https://www.anthonylepki.com/posts/hugo/'>
 <meta property='og:site_name' content='Anthony Lepki'>
-<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:tag' content='terminal'><meta property='article:published_time' content='2016-02-11T12:00:53-08:00'/><meta property='article:modified_time' content='2016-02-11T12:00:53-08:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@anthonylepki'>
+<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:tag' content='hugo'><meta property='article:published_time' content='2018-02-11T11:43:40-08:00'/><meta property='article:modified_time' content='2018-02-11T11:43:40-08:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@anthonylepki'>
 
 <meta name="generator" content="Hugo 0.54.0" />
 
-  <title>Terminal Commands • Anthony Lepki</title>
-  <link rel='canonical' href='https://www.anthonylepki.com/posts/terminal-commands/'>
+  <title>Hugo Site Generator • Anthony Lepki</title>
+  <link rel='canonical' href='https://www.anthonylepki.com/posts/hugo/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -116,7 +126,7 @@ Copy folder to another cp -vr /source/. /dest/  '>
     <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='/'>Anthony Lepki</a></li><li><a href='/posts/'>Posts</a></li><li><span>Terminal Commands</span></li></ol>
+      <ol><li><a href='/'>Anthony Lepki</a></li><li><a href='/posts/'>Posts</a></li><li><span>Hugo Site Generator</span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -135,7 +145,7 @@ Copy folder to another cp -vr /source/. /dest/  '>
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Terminal Commands</h1>
+      <h1 class='title'>Hugo Site Generator</h1>
       
 
     </div>
@@ -149,7 +159,7 @@ Copy folder to another cp -vr /source/. /dest/  '>
   
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2016-02-11T12:00:53-08:00'>2016, Feb 11</time>
+  <time class='entry-date' datetime='2018-02-11T11:43:40-08:00'>2018, Feb 11</time>
 </span>
 
   
@@ -176,12 +186,80 @@ One min read
   <div class='container entry-content'>
   
 
-<p>By far, this is not a list of terminal commands, simply things I on occassion use to get stuff done.</p>
+<h1 id="what-is-hugo">What is Hugo?</h1>
 
-<h2 id="copy-folder-to-another">Copy folder to another</h2>
+<p>The claim is that <a href="http://gohugo.io/" target="_blank">Hugo</a> is:</p>
 
-<pre><code>cp -vr /source/. /dest/
+<blockquote>
+<p>The world’s fastest framework for building websites</p>
+</blockquote>
+
+<p>SImply put, it&rsquo;s an <strong>open-source static site generator</strong>.</p>
+
+<h2 id="what-i-love-about-this">What I love about this</h2>
+
+<p>There is no monkey business with plugins, add-ons, themes, updates, security and more.</p>
+
+<p>Simply start writing in your favorite text editor, save and live-reload at play.</p>
+
+<p>A couple of items are at play here:</p>
+
+<ul>
+<li>no host, using GitHub pages to serve out this website.</li>
+<li>No database connected, not required.</li>
+<li>Static HTML website using Hugo.</li>
+</ul>
+
+<h2 id="set-up-a-new-website">Set up a new website</h2>
+
+<p><a href="https://gohugo.io/getting-started/quick-start/" target="_blank">Install Hugo</a></p>
+
+<h3 id="create-new-site">Create new site</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">hugo new site sitename</code></pre></div>
+<h3 id="start-local-hugo-server">Start local Hugo server</h3>
+
+<pre><code>hugo server
 </code></pre>
+
+<h3 id="create-new-post">Create New Post</h3>
+
+<pre><code>hugo new posts/----.md
+</code></pre>
+
+<h2 id="taxonomy-category-tags">Taxonomy - Category &amp; Tags</h2>
+
+<p>If you&rsquo;re using YAM:, simply add the following to your posts</p>
+
+<pre><code>categories: 
+- hugo
+tags: 
+- hugo
+</code></pre>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">tags: [&#34;hugo&#34;]</code></pre></div>
+
+<p><a href="https://gohugo.io/content-management/taxonomies/#add-taxonomies-to-content" target="_blank">https://gohugo.io/content-management/taxonomies/#add-taxonomies-to-content</a></p>
+
+<h2 id="make-it-pretty-url">Make it pretty URL</h2>
+
+<pre><code>url: &quot;go-hugo-go&quot;
+</code></pre>
+
+<p><a href="https://gohugo.io/content-management/organization/#url-1" target="_blank">https://gohugo.io/content-management/organization/#url-1</a></p>
+
+<h1 id="themes">Themes</h1>
+
+<p><a href="https://minimo.netlify.com/docs/" target="_blank">https://minimo.netlify.com/docs/</a></p>
+
+<h1 id="images">Images</h1>
+
+<p>Resources</p>
+
+<p><a href="http://danbahrami.io/articles/building-a-production-website-with-hugo-and-gulp-js/" target="_blank">http://danbahrami.io/articles/building-a-production-website-with-hugo-and-gulp-js/</a></p>
+
+<p><a href="https://gohugo.io/getting-started/usage/" target="_blank">Hugo Basic Usage</a></p>
+
+<h1 id="publish-to-github">Publish to GitHub</h1>
 
 </div>
 
@@ -193,7 +271,7 @@ One min read
   <line x1="7" y1="7" x2="7" y2="7"/>
   
 </svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/terminal/'>terminal</a></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/hugo/'>hugo</a></div>
 
   </div>
 </footer>
@@ -202,9 +280,19 @@ One min read
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='next-entry sep-before'>
+  <div class='container'><div class='prev-entry sep-before'>
       <a href='/posts/laravel/'>
-        <span class='screen-reader-text'>Next post: </span>Laravel<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Laravel</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/posts/drupal-8-composer-drush/'>
+        <span class='screen-reader-text'>Next post: </span>Drupal 8 Composer Drush<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="4" y1="12" x2="20" y2="12"/>
   <polyline points="14 6 20 12 14 18"/>

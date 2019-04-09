@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal on Anthony Lepki</title>
+    <title>terminal on Anthony Lepki</title>
     <link>https://www.anthonylepki.com/tags/terminal/</link>
-    <description>Recent content in Terminal on Anthony Lepki</description>
+    <description>Recent content in terminal on Anthony Lepki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Feb 2018 12:00:53 -0800</lastBuildDate>
+    <copyright>You said it!</copyright>
+    <lastBuildDate>Thu, 11 Feb 2016 12:00:53 -0800</lastBuildDate>
     
 	<atom:link href="https://www.anthonylepki.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>Terminal Commands</title>
       <link>https://www.anthonylepki.com/posts/terminal-commands/</link>
-      <pubDate>Sun, 11 Feb 2018 12:00:53 -0800</pubDate>
+      <pubDate>Thu, 11 Feb 2016 12:00:53 -0800</pubDate>
       
       <guid>https://www.anthonylepki.com/posts/terminal-commands/</guid>
       <description> By far, this is not a list of terminal commands, simply things I on occassion use to get stuff done.
